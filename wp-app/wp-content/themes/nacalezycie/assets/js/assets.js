@@ -1,0 +1,2 @@
+console.log("dupa");
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFzc2V0cy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSIsImZpbGUiOiJhc3NldHMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJjb25zb2xlLmxvZyhcImR1cGFcIik7Il0sInNvdXJjZVJvb3QiOiIuLi8uLi9zcmMvanMifQ==
