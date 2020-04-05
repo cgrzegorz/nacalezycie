@@ -174,7 +174,7 @@ function ncz_rebuild_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'ncz_rebuild_scripts' );
 
-function getFlexibleContentRows($nameFlexibleField = 'page', $pathFolder = 'template-parts/sections') {
+function getFlexibleContentRows($nameFlexibleField = 'home_page', $pathFolder = 'template-parts/sections') {
 
     $page = get_queried_object();
 
@@ -187,5 +187,5 @@ function getFlexibleContentRows($nameFlexibleField = 'page', $pathFolder = 'temp
 
 }
 
-// <?php getFlexibleContentRows(); ?>
+
 
