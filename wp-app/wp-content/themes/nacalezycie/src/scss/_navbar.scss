@@ -1,0 +1,53 @@
+.menuLinks{
+  li{
+    color: #303030;
+    a{
+      color: #303030;
+      font-family: 'Montserrat';
+      font-size: 0.8rem !important;
+      font-weight: 400 !important;
+      letter-spacing: .3em !important;
+      line-height: 1.8em !important;
+      text-transform: none !important;
+      word-spacing: 0 !important;
+      margin: 0 5px;
+      text-decoration: none;
+      text-transform: uppercase !important;
+    }
+  }
+  @media (min-width: 991px) {
+    display: flex !important;
+    align-items: center !important;
+    margin: 0 auto !important;
+  }
+}
+.logoMenu{
+  width:150px;
+  height: auto;
+  &__desktop{
+    @media (max-width: 991px) {
+        display: none;
+    }
+  }
+  &__mobile{
+    @media (min-width: 992px) {
+      display: none;
+    }
+  }
+}
+.navbar {
+  background: none !important;
+  @media (max-width: 991px) {
+    background-color: #f3e8db !important;
+  }
+}
+.navbar-nav{
+  margin: 0;
+}
+.menu-item {
+  a{ transition: 0.5s;}
+  a:hover{
+    color:#807f7e;
+  }
+
+}

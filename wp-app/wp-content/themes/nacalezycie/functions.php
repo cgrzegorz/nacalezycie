@@ -166,7 +166,6 @@ function ncz_rebuild_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'ncz_rebuild_styles' );
 
-add_action( 'wp_enqueue_scripts', 'roxon_rebuild_styles' );
 
 function ncz_rebuild_scripts() {
 	wp_enqueue_script( 'ncz-script-includes',  get_template_directory_uri().'/assets/js/includes.js', [], false, true );
@@ -186,6 +185,10 @@ function getFlexibleContentRows($nameFlexibleField = 'home_page', $pathFolder = 
     }
 
 }
+if( function_exists('acf_add_options_page') ) {
 
+    acf_add_options_page();
+
+}
 
 
