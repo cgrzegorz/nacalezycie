@@ -78,12 +78,12 @@
 .carouser-banner {
   //position: absolute !important;
   top: 0 !important;
-  margin-bottom: 50px;
+  padding-bottom: 88px;
 
 
   @media (min-width: 992px) {
-    position: static;
-    top: 0;
+    // position: static;
+    // top: 0;
   }
 
   &__image-item {
@@ -100,7 +100,7 @@
 }
 
 .carousel-indicators{
-  bottom: 17px !important;
+  bottom: 80px !important;
 }
 
 .carousel-control-prev{
