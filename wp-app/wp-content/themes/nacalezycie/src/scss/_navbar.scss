@@ -3,12 +3,10 @@
     color: #303030;
     a{
       color: #303030;
-      font-family: 'Montserrat';
       font-size: 0.8rem !important;
       font-weight: 400 !important;
       letter-spacing: .3em !important;
       line-height: 1.8em !important;
-      text-transform: none !important;
       word-spacing: 0 !important;
       margin: 0 5px;
       text-decoration: none;
@@ -45,9 +43,10 @@
   margin: 0;
 }
 .menu-item {
-  a{ transition: 0.5s;}
+  a{transition: 0.5s;}
+  
   a:hover{
-    color:#807f7e;
+    color:#9b9b9b;
   }
 
 }
