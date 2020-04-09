@@ -1,6 +1,6 @@
 <div class="tellingStories">
     <div class="row no-gutters">
-        <div class="col-7">
+        <div class="col-12 col-lg-7">
             <div class="tellingStories__first">
                 <p class="tellingStories__first__title">Geschichten<br> erzählen...</p>
                 <div class="tellingStories__first__desc">
@@ -22,7 +22,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-5">
+        <div class="col-12 col-lg-5 tellingStories__second__mobilePhone">
             <div class="tellingStories__second">
                 <img src="https://www.vickybaumann.de/wp-content/uploads/2019/01/Vicky-Babak-2-1044x696.jpg" alt="couple">
                 <div class="tellingStories__second__text">

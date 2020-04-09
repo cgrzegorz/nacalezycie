@@ -16,11 +16,32 @@
             top: -40px;
             left: 50%;
             transform: translate(-100%);
+            @media only screen and (max-width: 991px) {
+                color:black;
+                font-size: 50px;
+                transform: translate(-50%);
+            }
+            @media screen and (min-width: 992px) and (max-width: 1200px) {
+                font-size: 40px;
+                line-height: 33px;
+                top: -20px;
+                transform: translate(-90%);
+            }
+            @media screen and (min-width: 1201px) and (max-width: 1500px) {
+                font-size: 50px;
+                line-height: 47px;
+                top: -28px;
+                -webkit-transform: translate(-90%);
+                transform: translate(-90%);
+            }
         }
 
         &__desc {
             position: relative;
             padding-top: 100px;
+            @media screen and (min-width: 992px) and (max-width: 1500px) {
+                padding-top: 35px;
+            }
 
             &__text {
                 font-family: 'Montserrat'sans-serif;
@@ -29,6 +50,27 @@
                 font-weight: 400;
                 padding: 40px 55px;
                 width: 75%;
+                padding-bottom: 0;
+                @media only screen and (max-width: 992px) {
+                    padding: 0px 20px;
+                    width: 100%;
+                }
+                @media screen and (min-width: 992px) and (max-width: 1200px) {
+                    font-size: 6.5px;
+                    padding-bottom: 0;
+                    margin-bottom: 0;
+                }
+                @media screen and (min-width: 1201px) and (max-width: 1500px) {
+                    font-size: 9px;
+                    padding-bottom: 0;
+                    margin-bottom: 0;
+                }
+                @media screen and (min-width: 1501px) and (max-width: 1701px) {
+                    font-size: 9px;
+                    width: 72%;
+                }
+                
+                
             }
 
             &__img {
@@ -38,6 +80,22 @@
                 right: 8px;
                 height: 404px;
                 width: auto;
+                @media only screen and (max-width: 991px) {
+                    display: none;
+                }
+                @media only screen and (min-width: 992px) {
+                  height: 209px;
+                }
+                @media only screen and (min-width: 1200px) {
+                    height: 263px;
+                }
+                @media only screen and (min-width: 1400px) {
+                    height: 295px;
+                }
+                @media only screen and (min-width: 1500px) {
+                    height: 404px;
+                }
+               
             }
         }
 
@@ -48,14 +106,34 @@
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
-
+            @media only screen and (max-width: 992px) {
+                width: 100%;
+                padding: 0 10px;
+            }
+            img{
+                @media screen and (min-width: 992px) and (max-width: 1200px) {
+                    height: 75px;
+                    width: auto;
+                }
+            }
+            @media screen and (min-width: 992px) and (max-width: 1200px) {
+               padding-top: 0;
+               margin-top: 0;
+            }
+            
             p {
                 font-family: 'Playfair Display', serif;
                 color: rgb(190, 147, 103);
                 text-align: center;
-                font-size: 23px;
+                
                 font-weight: 400;
                 text-transform: uppercase;
+                @media only screen and (max-width: 400px) {
+                    font-size: 10px;
+                }
+                @media screen and (min-width: 992px) and (max-width: 1200px) {
+                    font-size: 10px;
+                }
             }
 
         }
@@ -63,6 +141,15 @@
 
     &__second {
         position: relative;
+        &__mobilePhone{
+            @media only screen and (max-width: 991px) {
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+                background-color: rgba(243, 232, 219, 0.76);
+                padding-bottom: 25px;
+            }
+           
+        }
 
         &__text {
             position: absolute;
@@ -74,6 +161,15 @@
             font-size: 38px;
             text-align: right;
             padding-right: 15px;
+            @media only screen and (max-width: 400px) {
+                font-size: 20px;
+            }
+            @media only screen and (min-width: 992px) {
+               font-size:25px;
+            }
+            @media only screen and (min-width: 1500px) {
+                font-size: 38px;
+            }
 
             &::after {
                 content: "";

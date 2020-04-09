@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.4.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-04-05 10:56:38+0000\n"
+"PO-Revision-Date: 2020-04-09 11:52:58+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -76,6 +76,12 @@ msgstr "Bloki! Prostsza stylizacja, nowe interfejsy API i osadzanie"
 #: wp-admin/about.php:179
 msgid "Check your code and see where these new actions can replace your custom code, and if you&#8217;re concerned about duplication, add a check for the WordPress version."
 msgstr "Sprawdź swój kod i zobacz, gdzie nowe akcje mogą zastąpić własny kod, a jeśli martwisz się duplikowaniem, dodaj oznaczenie wersji WordPress."
+
+#. translators: %s: 'wp_nav_menu_item_custom_fields_customize_template' action
+#. name.
+#: wp-admin/about.php:173
+msgid "In the Customizer, %s fires at the end of the menu-items form-fields template."
+msgstr "W narzędziu dostosowywania, %s uruchamia się na końcu szablonu pól formularza w elementach menu."
 
 #: wp-admin/about.php:140
 msgid "Just for developers"
