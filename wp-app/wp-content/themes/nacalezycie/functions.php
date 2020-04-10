@@ -191,4 +191,4 @@ if( function_exists('acf_add_options_page') ) {
 
 }
 
-
+add_image_size( 'post-blog', 1200 );

@@ -248,6 +248,180 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_5e905a90c39c1": {
+                    "key": "layout_5e905a90c39c1",
+                    "name": "text_banner",
+                    "label": "Text Banner",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e905a99c39c2",
+                            "label": "Mały Tekst",
+                            "name": "text_banner_small_text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5e905ab7c39c3",
+                            "label": "Duży napis",
+                            "name": "text_banner_big_text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5e907329e3b50": {
+                    "key": "layout_5e907329e3b50",
+                    "name": "post-content",
+                    "label": "Post",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e907333e3b51",
+                            "label": "Text",
+                            "name": "post_text",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 0,
+                            "delay": 0
+                        },
+                        {
+                            "key": "field_5e907376bf333",
+                            "label": "Zdjęcia",
+                            "name": "post-image",
+                            "type": "gallery",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "medium",
+                            "insert": "append",
+                            "library": "all",
+                            "min": "",
+                            "max": "",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_5e908e56a5842",
+                            "label": "Muzyczka",
+                            "name": "post-image-music",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5e9092f0e40b6": {
+                    "key": "layout_5e9092f0e40b6",
+                    "name": "post_Listing",
+                    "label": "Listing Postow",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e909314e40b7",
+                            "label": "posty",
+                            "name": "Listing",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "",
+                            "min": 0,
+                            "max": 0,
+                            "layout": "table",
+                            "button_label": "",
+                            "sub_fields": [
+                                {
+                                    "key": "field_5e909320e40b8",
+                                    "label": "Post",
+                                    "name": "post_Listing-post-item",
+                                    "type": "post_object",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "post_type": "",
+                                    "taxonomy": "",
+                                    "allow_null": 0,
+                                    "multiple": 0,
+                                    "return_format": "object",
+                                    "ui": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Dodaj wiersz",
@@ -265,9 +439,9 @@
         ],
         [
             {
-                "param": "page_template",
+                "param": "post_template",
                 "operator": "==",
-                "value": "page-template\/main-template.php"
+                "value": "page-template\/single-post.php"
             }
         ]
     ],
@@ -279,5 +453,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1586269047
+    "modified": 1586533365
 }

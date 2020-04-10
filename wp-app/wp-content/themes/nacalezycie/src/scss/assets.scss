@@ -6,4 +6,65 @@
 
 @import "./navbar";
 @import "./tellingStory";
+@import "./textBanner";
 
+.imgFullWidth {
+    width: 100%;
+    height: auto;
+}
+
+.postContent {
+    font-family: 'Playfair Display', serif;
+    padding-top: 50px;
+    color: #303030;
+
+    &__text {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    &__img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &__item {
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.postListing {
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 35px;
+        h4 {
+            margin-top: 20px;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4375rem;
+            letter-spacing: 0em;
+            word-spacing: 0.01em;
+            line-height: 1.25em;
+            text-transform: none;
+            font-weight: normal;
+        }
+
+        p {
+            display: block;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.6875rem;
+            letter-spacing: 0em;
+            word-spacing: 0em;
+            line-height: 2.02em;
+            width: 60%;
+        }
+    }
+}
