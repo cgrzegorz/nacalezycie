@@ -159,6 +159,13 @@ a {
 
         &__movie {
             margin-top: -30px;
+            
+            @media only screen and (max-width: 992px) {
+                margin-top: -47px;
+            }
+            @media only screen and (max-width: 420px) {
+                margin-top: -80px;
+            }
         }
     }
 
