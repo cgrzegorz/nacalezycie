@@ -10,6 +10,9 @@
         <?php
 } ?>
     </div>
+    <div class="postListing__button">
+        <a class="postListing__button__link" href="<?php site_url(); ?>/fotografia">Zobacz Więcej</a>
+    </div>
 </div>
 
 

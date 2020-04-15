@@ -50,6 +50,27 @@ a {
 
 .postListing {
     width: 95%;
+    &__button{
+            margin-bottom: 35px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            &__link{
+                background-color: #be9367;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 0.6rem;
+                color: white !important;
+                text-transform: uppercase;
+                padding: 10px 25px;
+            }
+    }
 
     &__imgHover {
         position: relative;
@@ -76,11 +97,12 @@ a {
     &__item {
 
         position: relative;
-        
+
         margin-bottom: 30px;
+
         @media only screen and (min-width: 992px) {
             margin-left: 20px;
-        margin-right: 20px;
+            margin-right: 20px;
         }
 
         &__title {
@@ -105,11 +127,62 @@ a {
             color: black !important;
 
         }
+    }
+}
 
+.movieListMain {
+    background-color: #f3e8db;
+    &__link{
+        color : #fff;
+        background-color: black;
+        margin-bottom: 35px !important;
+    }
 
+    &__item {
+        text-align: center;
+        padding-top: 35px;
 
+        &__title {
+            display: inline;
+            font-family: 'Old Standard TT', serif;
+            font-size: 33px;
+            border-bottom: 1px solid black;
 
+        }
 
+        &__desc {
+            margin-top: 5px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+        }
 
+        &__movie {
+            margin-top: -30px;
+        }
+    }
+
+    &__textLine {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        &::after {
+            content: '';
+            width: 100%;
+            border-bottom: solid 1px black;
+            position: absolute;
+            left: 0;
+            top: 30%;
+            z-index: 1;
+        }
+        &__elem{
+            background-color: #f3e8db;
+            font-family: 'Old Standard TT', serif;
+            text-align: center;
+            display: inline-block;
+            z-index: 3;
+             padding: 0 20px 0 20px;
+        }
     }
 }

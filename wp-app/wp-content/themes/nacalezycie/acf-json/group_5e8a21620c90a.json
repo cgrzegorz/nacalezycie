@@ -422,6 +422,94 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_5e970fdae0c63": {
+                    "key": "layout_5e970fdae0c63",
+                    "name": "movie_Listing",
+                    "label": "Listing Filmow",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e97105ce0c65",
+                            "label": "Film Pojedynczy",
+                            "name": "movie_listing_item",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "",
+                            "min": 0,
+                            "max": 0,
+                            "layout": "table",
+                            "button_label": "",
+                            "sub_fields": [
+                                {
+                                    "key": "field_5e97107fe0c66",
+                                    "label": "Tytul",
+                                    "name": "movie_listing_item_title",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_5e971097e0c67",
+                                    "label": "Opis do Filmu",
+                                    "name": "movie_listing_item_desc",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_5e9710b7e0c68",
+                                    "label": "ID Filmu Vimeo",
+                                    "name": "movie_listing_item_idVimeo",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Dodaj wiersz",
@@ -453,5 +541,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1586533365
+    "modified": 1586961179
 }

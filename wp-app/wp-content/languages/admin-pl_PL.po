@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.4.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-04-09 11:52:58+0000\n"
+"PO-Revision-Date: 2020-04-14 17:01:13+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -83,17 +83,78 @@ msgstr "Sprawdź swój kod i zobacz, gdzie nowe akcje mogą zastąpić własny k
 msgid "In the Customizer, %s fires at the end of the menu-items form-fields template."
 msgstr "W narzędziu dostosowywania, %s uruchamia się na końcu szablonu pól formularza w elementach menu."
 
+#. translators: %s: 'wp_nav_menu_item_custom_fields' action name.
+#: wp-admin/about.php:164
+msgid "On the Menus admin screen, %s fires just before the move buttons of a nav menu item in the menu editor."
+msgstr "Na ekranie administracji menu, %s wyzwala się tuż przed przyciskami przemieszczania elementu menu nawigacyjnego w edytorze menu."
+
+#: wp-admin/about.php:158
+msgid "Two new actions let you add custom fields to menu items&mdash;without a plugin and without writing custom walkers."
+msgstr "Dwie nowe akcje pozwalają dodawać niestandardowe pola do pozycji menu - bez wtyczki i bez pisania niestandardowych walkerów."
+
+#: wp-admin/about.php:156
+msgid "Add custom fields to menu items—natively"
+msgstr "Natywnie dodawaj niestandardowe pola do pozycji menu"
+
 #: wp-admin/about.php:140
 msgid "Just for developers"
 msgstr "Tylko dla programistów"
+
+#: wp-admin/about.php:131
+msgid "Plus, little enhancements throughout give the privacy tools a little cleaner look. Your eyes will thank you!"
+msgstr "Ponadto niewielkie udoskonalenia w całym tekście nadają narzędziom do prywatności nieco czystszy wygląd. Twoje oczy będą wdzięczne!"
 
 #: wp-admin/about.php:127
 msgid "Take a look:"
 msgstr "Spójrz:"
 
+#: wp-admin/about.php:126
+msgid "5.4 helps with a variety of privacy issues around the world. So when users and stakeholders ask about regulatory compliance, or how your team handles user data, the answers should be a lot easier to get right."
+msgstr "5.4 pomaga rozwiązać szereg problemów związanych z prywatnością na całym świecie. Kiedy więc użytkownicy i interesariusze pytają o zgodność z przepisami lub o to, jak twój zespół obchodzi się z danymi użytkownika, odpowiedzi powinny być o wiele łatwiejsze."
+
 #: wp-admin/about.php:125
 msgid "Your fundamental right: privacy"
 msgstr "Twoje fundamentalne prawo: prywatność"
+
+#: wp-admin/about.php:109
+msgid "Of course, if you want to work with the very latest tools and features, install the <a href=\"https://wordpress.org/plugins/gutenberg/\">Gutenberg plugin</a>. You&#8217;ll get to be the first to use new and exciting features in the block editor, before anyone else has seen them!"
+msgstr "Oczywiście, jeśli chcesz pracować z najnowszymi narzędziami i funkcjami, zainstaluj <a href=\"https://pl.wordpress.org/plugins/gutenberg/\">wtyczkę Gutenberg</a>. Będziesz w gronie tych, którzy użyją nowych i ekscytujących funkcji w edytorze bloków, zanim ktokolwiek je zobaczy!"
+
+#: wp-admin/about.php:107
+msgid "Know at a glance whether you&#8217;re in a block&#8217;s Edit or Navigation mode. Or, if you have restricted vision, your screen reader will tell you which mode you&#8217;re in."
+msgstr "Na pierwszy rzut oka widać, czy jesteś w trybie edycji bloku, czy w trybie nawigacji. Jeżeli natomiast masz ograniczone widzenie, czytnik ekranu powie, w jakim trybie jesteś."
+
+#: wp-admin/about.php:106
+msgid "Tips are gone. In their place, a Welcome Guide window you can bring up when you need it&mdash;and only when you need it&mdash;again and again."
+msgstr "Wskazówki zniknęły. Na ich miejscu jest okno powitalne, które można przywołać, gdy jest to potrzebne &mdash; i tylko wtedy, gdy jest to potrzebne &mdash; raz za razem."
+
+#: wp-admin/about.php:105
+msgid "Speed! 14% faster loading of the editor, 51% faster time-to-type!"
+msgstr "Prędkość! 14% szybsze ładowanie edytora, 51% szybsze pisanie!"
+
+#: wp-admin/about.php:104
+msgid "For when you need to navigate with the keyboard, better tabbing and focus. Plus, you can tab over to the sidebar of nearly any block."
+msgstr "Gdy potrzebujesz nawigować za pomocą klawiatury, lepiej używaj tabulatora. Dodatkowo można za jego pomocą przeskoczyć do paska bocznego lub prawie każdego bloku."
+
+#: wp-admin/about.php:103
+msgid "Clearer block navigation with block breadcrumbs. And easier selection once you get there."
+msgstr "Bardziej przejrzysta nawigacja po blokach dzięki blokowej ścieżce nawigacji. I łatwiejszy wybór, gdy tam dotrzesz."
+
+#: wp-admin/about.php:101
+msgid "Cleaner UI, clearer navigation—and easier tabbing!"
+msgstr "Czystszy interfejs użytkownika, bardziej przejrzysta nawigacja - i łatwiejsze zakładki!"
+
+#: wp-admin/about.php:94
+msgid "And if you&#8217;ve ever thought your image in the Media+Text block should link to something else&mdash;perhaps a picture of a brochure should download that brochure as a document? Well, now it can."
+msgstr "A jeśli kiedykolwiek się zdarzy, żeby obraz w bloku Media+Tekst miał zawierać link do czegoś innego &mdash; może zdjęcie broszury powinno pobrać tę broszurę jako dokument? Cóż, teraz może...."
+
+#: wp-admin/about.php:93
+msgid "Guess a whole lot less! Version 5.4 streamlines the whole process for placing and replacing multimedia in every block. Now it works the same way in almost every block!"
+msgstr "Zgaduj o wiele mniej! Wersja 5.4 usprawnia cały proces umieszczania i wymiany multimediów w każdym bloku. Teraz działa tak samo w prawie każdym bloku!"
+
+#: wp-admin/about.php:92
+msgid "New ways with color: Gradients in the Buttons and Cover block, toolbar access to color options in Rich Text blocks, and for the first time, color options in the Group and Columns blocks."
+msgstr "Nowe sposoby kolorowania: Gradienty w przyciskach i bloku okładki, dostęp do opcji kolorów w pasku narzędzi blokach tekstu sformatowanego, a po raz pierwszy opcje kolorów w blokach grupy i kolumn."
 
 #: wp-admin/about.php:91
 msgid "Two brand-new blocks: Social Icons and Buttons make adding interactive features fast and easy."
@@ -103,9 +164,38 @@ msgstr "Dwa nowe bloki: ikony mediów społecznościowych oraz przyciski pozwala
 msgid "Two new blocks. And better blocks overall."
 msgstr "Dwa nowe bloki. Wszystkie wyglądają lepiej."
 
+#: wp-admin/about.php:75
+msgid "And more speed everywhere, so as you build sections or galleries, or just type in a line of prose, you can feel how much faster your work flows."
+msgstr "I wszędzie większa prędkość, więc budując sekcje, galerie lub po prostu wpisując linię tekstu, można poczuć o ile szybciej się pracuje."
+
+#: wp-admin/about.php:72
+msgid "More ways to make your vision real, and put blocks in the perfect place&mdash;even if a particular kind of block is new to you. More efficient processes."
+msgstr "Więcej sposobów na urzeczywistnienie wizji i umieszczenie bloków w idealnym miejscu &mdash; nawet jeśli określony rodzaj bloku jest dla ciebie nowy. Bardziej wydajne procesy."
+
+#: wp-admin/about.php:67
+msgid "More ways to bring your visitors in, and keep them engaged, with the richness of embedded media from the web&#8217;s top services."
+msgstr "Więcej sposobów na przyciągnięcie odwiedzających i zaangażowanie ich dzięki bogactwu mediów osadzonych z najlepszych usług internetowych."
+
+#: wp-admin/about.php:66
+msgid "More ways to make posts and pages come alive with your best images."
+msgstr "Więcej sposobów na ożywienie postów i stron dzięki najlepszym zdjęciom."
+
+#: wp-admin/about.php:63
+msgid "Every major release adds more to the block editor."
+msgstr "Każda ważna wersja dodaje więcej do edytora bloków."
+
+#: wp-admin/about.php:46
+msgid "More ways to make your pages come alive. With easier ways to get it all done and looking better than ever&mdash;and boosts in speed you can feel."
+msgstr "Więcej sposobów na ożywienie stron. Dzięki prostszym sposobom na załatwienie wszystkiego i lepszemu wyglądowi niż kiedykolwiek wcześniej - oraz przyspieszeniu, które można poczuć."
+
 #: wp-admin/about.php:44
 msgid "Say hello to more and better."
 msgstr "Przywitaj się z więcej i lepiej."
+
+#. translators: %s: The options page name.
+#: wp-admin/options.php:220
+msgid "<strong>Error</strong>: Options page %s not found in the options whitelist."
+msgstr "<strong>Błąd</strong>: Strony opcji %s nie znaleziono na liście dozwolonych opcji."
 
 #: wp-admin/themes.php:236 wp-admin/import.php:64 wp-admin/users.php:277
 msgid "Error:"
@@ -122,9 +212,34 @@ msgstr "Dodaj"
 msgid "You should update your %s file now."
 msgstr "Teraz należy zaktualizować plik %s."
 
+#: wp-admin/update-core.php:165
+msgid "This localized version contains both the translation and various other localization fixes."
+msgstr "Zlokalizowana wersja zawiera zarówno tłumaczenie, jak i różne inne poprawki lokalizacji."
+
+#. translators: 1: Number of issues. 2: URL to Site Health screen.
+#: wp-admin/includes/dashboard.php:1843
+msgid "Take a look at the <strong>%1$d item</strong> on the <a href=\"%2$s\">Site Health screen</a>."
+msgid_plural "Take a look at the <strong>%1$d items</strong> on the <a href=\"%2$s\">Site Health screen</a>."
+msgstr[0] "Spójrz na <strong>%1$d element</strong> na <a href=\"%2$s\"> ekranie Stan witryny</a>."
+msgstr[1] "Spójrz na <strong>%1$d elementy</strong> na <a href=\"%2$s\"> ekranie Stan witryny</a>."
+msgstr[2] "Spójrz na <strong>%1$d elementów</strong> na <a href=\"%2$s\"> ekranie Stan witryny</a>."
+
+#: wp-admin/includes/dashboard.php:1833
+msgid "Your site&#8217;s health is looking good, but there are still some things you can do to improve its performance and security."
+msgstr "Stan witryny wygląda dobrze, ale nadal możesz zrobić kilka rzeczy, aby poprawić jej wydajność i bezpieczeństwo."
+
 #: wp-admin/includes/dashboard.php:1831
 msgid "Great job! Your site currently passes all site health checks."
 msgstr "Dobra robota! Witryna przeszła wszystkie testy stanu witryny."
+
+#: wp-admin/includes/dashboard.php:1829
+msgid "Your site has critical issues that should be addressed as soon as possible to improve its performance and security."
+msgstr "W witrynie występują krytyczne problemy, które należy rozwiązać jak najszybciej, aby poprawić jej wydajność i bezpieczeństwo."
+
+#. translators: %s: URL to Site Health screen.
+#: wp-admin/includes/dashboard.php:1821
+msgid "Site health checks will automatically run periodically to gather information about your site. You can also <a href=\"%s\">visit the Site Health screen</a> to gather information about your site now."
+msgstr "Sprawdzanie stanu witryny będzie okresowo uruchamiane automatycznie w celu zebrania informacji o witrynie. Można również <a href=\"%s\">odwiedzić ekran stanu witryny</a>, aby zobaczyć informacje o stanie witryny."
 
 #: wp-admin/includes/dashboard.php:1809
 msgid "No information yet&hellip;"
@@ -138,6 +253,11 @@ msgstr "Dodawany plik przekracza %1$s zdefiniowane w %2$s."
 #: wp-admin/includes/class-wp-comments-list-table.php:204
 msgid "No comments found in Trash."
 msgstr "Nie znaleziono żadnych komentarzy w koszu."
+
+#. translators: 1: php.ini, 2: post_max_size, 3: upload_max_filesize
+#: wp-admin/includes/import.php:87 wp-admin/includes/file.php:819
+msgid "File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your %1$s file or by %2$s being defined as smaller than %3$s in %1$s."
+msgstr "Plik jest pusty. Prześlij coś konkretniejszego. Ten błąd może być również spowodowany wyłączeniem przesyłania w pliku %1$s lub zdefiniowaniem %2$s jako mniejszej niż %3$s w %1$s."
 
 #: wp-admin/includes/class-wp-site-health.php:2296
 msgid "A test is unavailable"

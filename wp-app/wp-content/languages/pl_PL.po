@@ -1751,7 +1751,7 @@ msgstr "Dodano:"
 msgid "Whether posts of this status may have floating published dates."
 msgstr "Określa, czy dla wpisów z tym statusem można zmieniać datę publikacji."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:392
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:415
 msgid "Sorry, you are not allowed to delete revisions of this post."
 msgstr "Przepraszamy, nie posiadasz uprawnień do usuwania wersji tego wpisu."
 
@@ -11832,7 +11832,7 @@ msgstr "Zaznaczanie wielu"
 
 #. translators: %s: Taxonomy label, %l: List of terms formatted as per
 #. $term_template.
-#: wp-includes/taxonomy.php:4341
+#: wp-includes/taxonomy.php:4343
 msgid "%s: %l."
 msgstr "%s: %l."
 
@@ -15631,7 +15631,7 @@ msgstr "Brak arkusza stylów."
 msgid "The parent theme is missing. Please install the \"%s\" parent theme."
 msgstr "Brak motywu nadrzędnego. Proszę zainstalować motyw nadrzędny pt. &#8222;%s&#8221;."
 
-#: wp-includes/taxonomy.php:4414
+#: wp-includes/taxonomy.php:4416
 msgid "Invalid object ID."
 msgstr "Nieprawidłowy identyfikator obiektu"
 
