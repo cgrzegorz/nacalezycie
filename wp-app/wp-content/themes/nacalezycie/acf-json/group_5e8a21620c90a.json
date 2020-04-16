@@ -510,6 +510,35 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_5e987140274dc": {
+                    "key": "layout_5e987140274dc",
+                    "name": "hidden_text",
+                    "label": "Teks Ukrywalny",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e98714e274dd",
+                            "label": "Teks Ukrywalny-text",
+                            "name": "hidden_text-text",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Dodaj wiersz",
@@ -541,5 +570,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1586961179
+    "modified": 1587048884
 }

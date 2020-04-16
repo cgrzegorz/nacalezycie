@@ -24,7 +24,5 @@
         <div class="postListing__button">
         <a class="postListing__button__link movieListMain__link" href="<?php site_url(); ?>/filmy">Zobacz Teraz !</a>
     </div>
-
     </div>
-
 </div>
