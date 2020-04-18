@@ -138,6 +138,9 @@ body {
 
 .movieListMain {
     background-color: #f3e8db;
+    .postListing__button{
+        margin-bottom: 0;
+    }
 
     &__link {
         color: #fff;
@@ -343,5 +346,109 @@ body {
         font-size: 12px;
         font-weight: 300;
         line-height: 23px;
+    }
+}
+
+.movieBanner{
+    
+    @media (min-width: 992px) {
+        margin-bottom: 100px;
+    }
+    position: relative;
+    width: 100%;
+    //height: 51%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__poster{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-fit: cover;
+        @media (min-width: 992px) {
+            display: none;
+        }
+    }
+    video{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        @media (max-width: 991px) {
+            display: none;
+        }
+    }
+    h2{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        font-size: 14vw;
+        text-align: center;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 800;
+        line-height: 90%;
+        mix-blend-mode: multiply;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 0;
+    }
+    p{
+        
+        position: absolute;
+        top: 0%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        font-size: 3vw;
+        text-align: center;
+        color: #fff;
+        font-weight: 800;
+        line-height: 100%;
+        font-family: 'Old Standard TT', serif;
+        display: flex;
+        align-items: center; /** Y-axis align **/
+        justify-content: center; /** X-axis align **/
+        @media (max-width: 992px) {
+            font-size: 5vw;
+        }
+           
+    }
+    a{
+        position: absolute;
+        top: 65%;
+        text-align: center;
+         line-height: 100%;
+         font-family: 'Old Standard TT', serif;
+         font-size: 1rem;
+         color:#000;
+         background-color: #fff;
+         text-transform: uppercase;
+         padding: 15px 35px;
+         z-index: 99999;
+         display: flex;
+        align-items: center; /** Y-axis align **/
+        justify-content: center; /** X-axis align **/
+    }
+    .link_movie{
+        @media (max-width: 992px) {
+            display: none;
+        }
+    }
+    
+}
+.link_movie_second{
+    margin-top:20px !important;
+    margin-bottom: 20px !important;
+    @media (min-width: 992px) {
+        display: none;
     }
 }

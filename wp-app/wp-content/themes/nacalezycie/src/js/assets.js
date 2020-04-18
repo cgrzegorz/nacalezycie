@@ -4,3 +4,4 @@ function readMore(){
    content.classList.remove("hiddenText__hiddenContent");
    button.style.display = "none";
 }
+
