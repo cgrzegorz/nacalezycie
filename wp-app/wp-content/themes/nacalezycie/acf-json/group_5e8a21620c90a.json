@@ -686,6 +686,170 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_5e9b0ab2b0e41": {
+                    "key": "layout_5e9b0ab2b0e41",
+                    "name": "margin-top-space",
+                    "label": "Pusta Przestrzen",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5e9b115c57721": {
+                    "key": "layout_5e9b115c57721",
+                    "name": "movie_content_text",
+                    "label": "Film Content teksty",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e9b118057722",
+                            "label": "Bialy mały tytuł",
+                            "name": "movie_content_text_small",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5e9b11a357723",
+                            "label": "Duzy tytuł",
+                            "name": "movie_content_text_big",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5e9b11b757724",
+                            "label": "Opis do Strony",
+                            "name": "movie_content_description",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 0,
+                            "delay": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5e9b1ed3e65bd": {
+                    "key": "layout_5e9b1ed3e65bd",
+                    "name": "movie_portfolio",
+                    "label": "Portfolio Filmow",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e9b1feb0df35",
+                            "label": "Portolio Filmow",
+                            "name": "movie_portfolio_content",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "",
+                            "min": 0,
+                            "max": 0,
+                            "layout": "table",
+                            "button_label": "",
+                            "sub_fields": [
+                                {
+                                    "key": "field_5e9b23430df36",
+                                    "label": "Maly tekst",
+                                    "name": "movie_portfolio_content_small",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_5e9b23550df37",
+                                    "label": "Duzy Napis",
+                                    "name": "movie_portfolio_content_big",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_5e9b23870df38",
+                                    "label": "ID Vimeo",
+                                    "name": "movie_portfolio_content_vimeo",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Dodaj wiersz",
@@ -724,5 +888,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1587186665
+    "modified": 1587225503
 }
