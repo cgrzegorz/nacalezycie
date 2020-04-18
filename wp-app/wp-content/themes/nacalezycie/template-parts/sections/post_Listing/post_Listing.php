@@ -1,6 +1,9 @@
 <div class="postListing container-fluid">
     <div class="row justify-content-md-center">
-        <?php $posts = get_sub_field('Listing'); ?>
+        <?php $posts = get_sub_field('Listing');
+              $buttonStatus = get_sub_field('button_active');
+        ?>
+        
         <?php foreach ( $posts as $post ){ ?>
             <a href="<?php echo $post['post_Listing-post-item']->guid; ?>" class="col-12 col-md-4 col-lg-3 postListing__item">
                 <div class="postListing__imgHover"><img  src="<?php echo get_the_post_thumbnail_url($post['post_Listing-post-item']->ID) ?>" /></div>
@@ -10,9 +13,19 @@
         <?php
 } ?>
     </div>
+    <?php  
+if ($buttonStatus === 'true') { ?>
     <div class="postListing__button">
-        <a class="postListing__button__link" href="<?php site_url(); ?>/fotografia">Zobacz Więcej</a>
-    </div>
+    <a class="postListing__button__link" href="<?php site_url(); ?>/fotografia">Zobacz Więcej</a>
+</div>
+<?php } 
+ else { }?>
+   
+
+   
+
+
+   
 </div>
 
 

@@ -418,6 +418,33 @@
                                     "ui": 1
                                 }
                             ]
+                        },
+                        {
+                            "key": "field_5e9a855caa548",
+                            "label": "button",
+                            "name": "button_active",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "true": "true",
+                                "false": "false"
+                            },
+                            "default_value": [
+                                "true"
+                            ],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "return_format": "value",
+                            "ajax": 0,
+                            "placeholder": ""
                         }
                     ],
                     "min": "",
@@ -630,6 +657,35 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_5e9a8baeaba59": {
+                    "key": "layout_5e9a8baeaba59",
+                    "name": "video_banner_clear",
+                    "label": "Banner Wideo bez Napisów",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e9a8bc1aba5a",
+                            "label": "Film",
+                            "name": "video_banner_clear",
+                            "type": "file",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "library": "all",
+                            "min_size": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Dodaj wiersz",
@@ -651,6 +707,13 @@
                 "operator": "==",
                 "value": "page-template\/single-post.php"
             }
+        ],
+        [
+            {
+                "param": "post_template",
+                "operator": "==",
+                "value": "page-template\/children-template.php"
+            }
         ]
     ],
     "menu_order": 0,
@@ -661,5 +724,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1587137397
+    "modified": 1587186665
 }

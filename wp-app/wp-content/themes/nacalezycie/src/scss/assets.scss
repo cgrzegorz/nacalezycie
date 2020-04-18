@@ -151,6 +151,12 @@ body {
     &__item {
         text-align: center;
         padding-top: 35px;
+        &:not(:first-child){
+            @media (max-width: 992px) {
+                padding-top: 0;
+            }
+        }
+        
 
         &__title {
             display: inline;
@@ -450,5 +456,24 @@ body {
     margin-bottom: 20px !important;
     @media (min-width: 992px) {
         display: none;
+    }
+}
+
+.videoBannerClean{
+    video{
+        width: 100%;
+        height: 450px;
+        object-fit: cover;
+        object-position: top;
+        
+        @media screen and (max-width: 767px) and (min-width: 200px) {
+            height: 200px;
+        }
+        @media screen and (max-width: 1440px) and (min-width: 768px) {
+            height: 300px;
+        }
+            
+        
+        
     }
 }
