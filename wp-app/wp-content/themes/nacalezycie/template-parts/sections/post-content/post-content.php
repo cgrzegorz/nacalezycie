@@ -13,7 +13,7 @@
         <?php echo get_sub_field('post-image-music') ?>
     </div>
 </div>
-<div class="row no-gutters justify-content-center">
+<div class="row no-gutters justify-content-center mb-5">
 
     <div class="postContent__img col-12 col-md-6">
 
@@ -26,5 +26,4 @@
     </div>
 </div>
 </div>
-
 <?php get_footer() ?>
