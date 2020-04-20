@@ -618,3 +618,39 @@ body {
 
     }
 }
+
+
+.test2{
+    
+    font-weight: 200;
+    opacity: 0.9;
+    
+    font-family: 'Montserrat', sans-serif !important;
+    border: 2px solid #f7efe3;
+    padding:30px;
+    a{
+        text-decoration: none;
+        color:black;
+        font-family: 'Montserrat', sans-serif !important;
+    }
+}
+.ticket{
+    height: 100%;
+ 
+    
+    .fas {
+        color: rgba(0, 0, 0, 0.425);
+    }
+    font-weight: 200;
+    opacity: 0.9;
+    
+    p:last-child{
+        margin-bottom: 0;
+    }
+    
+  
+   
+     background-color: #f7efe3;
+    padding:20px;
+    font-family: 'Montserrat', sans-serif !important;
+}
